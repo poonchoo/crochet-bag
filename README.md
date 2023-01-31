@@ -1,0 +1,2 @@
+# read me
+this website contains information about crochet videos I find online, but I have recorded it down because my phone doesn't have unlimited data, and I would like to follow them without needing wifi. Information collected is written patterns and notes about said videos,
