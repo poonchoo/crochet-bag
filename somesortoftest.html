@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Meow+Script&family=Poppins:ital@0;1&display=swap" rel="stylesheet">
     <link rel ='stylesheet', href="styles.css">
+    <script>
+    function show(shown, hidden) {
+      document.getElementById(shown).style.display='block';
+      document.getElementById(hidden).style.display='none';
+      return false;
+    }
+    </script>
 </head>
 <body>
-<h1>   Crochet mini marshmallow bag instructions
+<h1>   My crochet collection!
 </h1>
-<p>
-T-shirt yarn needs to be stretched before working with it
+    <em><a href="https://youtu.be/Ai30OjpdngA">video link here</a></em>
+    <p class="comment"> I got a bit too into crochet lately every since I
+    was making Christmas presents for my family and I just wanted a place to put
+    written instructions that I took notes from YouTube and various websites.</p>
+    <div id="Page1">
+    Content of page 1
+    <a href="#" onclick="return show('Page2','Page1');">Show page 2</a>
+        <h2>Mini Marshmallow purse</h2>
+        <p class="comment">This purse is so cute and when I get t-shirt yarn I would like to make it someday!</p>
+        <p>
+            T-shirt yarn needs to be stretched before working with it<br> 
+            Slip knot with 5 cm tail, Ch 14<br>
+            Turn over skip the first st and 2 sc through back loop, Ch 1 and skip 1 stitch<br>
+            1 sc, 1 ch and skip 1 stitch at the bottom, alternate till end of row<br>
+            At end of row 2 sc<br>
+            Ch 2, now your work should have 5 arches <br>
+        </p>
+        <p>
+            1 sc in the 1st arch, yarn over and insert hook into the corner where the 1st chain is made, pick up thread so that the sew part looks up and pull, make sure the  to hold the yarn so that the sewn side is facing upwards, repeat a total of 3 times then yarn over a pull a loop through all loops except the first loop, yarn over again and pull the loop through the last two loops<br>
 
-Slip knot with 5 cm tail
-Ch 14
-Turn over skip the first st and 2 sc through back loop, Ch 1 and skip 1 stitch
-1 sc, 1 ch and skip 1 stitch at the bottom, alternate till end of row
-At end of row 2 sc
-Ch 2, should have 5 arches 
+            Insert your hook into the next arch, pull up a loop and repeat that 3 times, then yarn over and pull through all but the last loop, yarn over and pull through the last.<br>
+            repeat this till the last loop.
+         </p>
+  </div>
+    
+ 
 
-1 sc in the 1st arch, yarn over and insert hook into the corner where the 1st chain is made, pick up thread so that the sew part looks up and pull, make sure the  to hold the yarn so that the sewn side is facing upwards, repeat a total of 3 times then yarn over a pull a loop through all loops except the first loop, yarn over again and pull the loop through the last two loops
-
-Insert your hook into the next arch, pull up a loop
-    </p>
+     <div id="Page2" style="display:none">
+    Content of page 2
+    <a href="#" onclick="return show('Page1','Page2');">Show page 1</a>
+         
+       
+    </div>
+    
     </body>
     

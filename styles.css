@@ -1,4 +1,10 @@
 body {
     max-width:800px;
     margin:auto;
+    font-family: "Hachi Maru Pop", cursive;
+    background: #FEE9E1
     }
+.comment {
+    font-family: 'Meow Script', cursive;
+    font-size: 25px;
+}
